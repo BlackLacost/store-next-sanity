@@ -1,19 +1,8 @@
-import { Typography } from '@mui/material';
 import type { NextPage } from 'next';
-import Head from 'next/head';
+import Layout from '../components/Layout';
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <Head>
-        <title>Магазин</title>
-        <meta name="description" content="Интернет магазин" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Typography variant="h1">Магазин</Typography>
-    </div>
-  );
+  return <Layout>Список продуктов</Layout>;
 };
 
 export default Home;
